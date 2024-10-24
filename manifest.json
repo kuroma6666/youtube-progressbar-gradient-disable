@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "youtube-progress-bar-gradient-css-disable",
+    "version": "1.0",
+    "description": "YouTubeのプログレスバーのグラデーション表示を無効化し、赤色(#f03)に固定します",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "css": ["override.css"]
+      }
+    ]
+  }
+  
