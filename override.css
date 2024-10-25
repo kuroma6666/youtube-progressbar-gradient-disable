@@ -1,10 +1,14 @@
-/* 動画用 */
+/* 再生中動画用 */
 .ytp-cairo-refresh-signature-moments .ytp-play-progress {
     background: #f03 !important;
 }
 
-/* ショート動画用*/
+/* トップ画面 プレビュー再生中動画用 */
+ytd-thumbnail-overlay-resume-playback-renderer[enable-refresh-signature-moments-web] #progress.ytd-thumbnail-overlay-resume-playback-renderer {
+    background: #f03 !important;
+}
 
+/* ショート動画用*/
 .YtProgressBarLineProgressBarPlayedRefresh {
     background: #f03 !important;
 }
